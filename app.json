@@ -1,0 +1,18 @@
+{
+    "name": "PuddingBot",
+    "version": "0.0.1",
+    "description": "PuddingLib is a wrapper library on top of PTB (Python Telegram Bot)",
+    "keywords": [
+        "telegram",
+        "bot"
+    ],
+    "repository": "https://github.com/PuddingBot/pudding-lib",
+    "website": "https://puddingbot.github.io/",
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
